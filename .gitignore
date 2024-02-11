@@ -1,0 +1,45 @@
+# Laravel storage
+/storage/*
+!/storage/.gitignore
+
+# Laravel bootstrap
+/bootstrap/*
+!/bootstrap/cache
+!/bootstrap/cache/.gitignore
+
+# Composer
+/vendor
+/vendor/*
+
+# NPM
+/node_modules
+/public/mix-manifest.json
+/public/css
+/public/js
+
+# Logs and other temporary files
+/public/horizon
+/public/telescope
+*.log
+*.tpl
+*.swp
+
+# Environment file
+/.env
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Laravel Mix
+/public/css
+/public/js
+
+# PHPUnit
+/phpunit.xml
+/vendor/phpunit
+
+# IDE files
+/.idea
+/.vscode
